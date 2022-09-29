@@ -1,0 +1,48 @@
+*, *::before, *::after {
+	box-sizing: border-box;
+}
+
+body {
+	margin: 0;
+	background-color: #00FFD1;
+	font-size: 1.3em;
+	font-family: arial, "san-serif";
+	display: grid;
+	justify-content: center;
+	align-items: center;
+	/*height: 50vh;*/
+}
+
+img {
+	height: 250px;
+	width: 250px;
+	object-fit: contain;
+	object-position: center;
+	/*border-radius: 50%;*/
+	border: 10px solid #FF1E1E;
+	outline: 8px solid #FFFF00;
+}
+
+h1 {
+	font-family: verdana, serif;
+}
+
+main {
+	margin-top: 10%;
+	display: grid;
+	gap: 50px;
+	grid-template-columns: 1fr 1fr;
+}
+
+main img {
+	grid-column: span 2;
+	justify-self: center;
+}
+
+section > * {
+	color: green;
+}
+
+ul  a {
+	color: #FF1E1E;
+}
